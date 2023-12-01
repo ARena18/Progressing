@@ -1,0 +1,41 @@
+html, body {
+  background-color: #ede5f5;
+}
+
+hr {
+  height: 1px;
+  background-color: #2d004f;
+  border: none;
+}
+
+.box {
+  border: 3px solid #2d004f;
+  border-radius: 5px;
+  border-style: dotted;
+  padding: 10px;
+  margin: 10px;
+}
+  
+#links {
+  display: flex;
+  justify-content: space-around;
+}
+
+.button {
+  background-color: #ffffff;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 3px;
+  padding-right: 4px;
+  padding-left: 4px;
+}
+
+.button:hover {
+  border: 1px solid #ffffff;
+}
+
+#query {
+  background-color: #ffffff;
+  border: 1px solid;
+  width: 400px;
+}
